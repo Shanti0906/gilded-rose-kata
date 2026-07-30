@@ -16,5 +16,20 @@ Didn't touch `Item` itself, per the instructions.
 
 ## Running the tests
 
-    pip install -r requirements.txt
-    python -m pytest tests/ -v
+1. Clone the repo and cd into it:
+   ```
+   git clone https://github.com/Shanti0906/gilded-rose-kata.git
+   cd gilded-rose-kata
+   ```
+2. Install the one dependency (pytest):
+   ```
+   pip3 install -r requirements.txt
+   ```
+3. Run the tests:
+   ```
+   python3 -m pytest tests/ -v
+   ```
+   You should see 19 tests pass.
+
+(Use `python`/`pip` instead of `python3`/`pip3` if that's how Python is set up
+on your machine.)
