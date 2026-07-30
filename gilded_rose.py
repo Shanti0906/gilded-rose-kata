@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from item import Item
 
 MIN_QUALITY = 0
 MAX_QUALITY = 50
